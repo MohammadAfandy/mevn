@@ -1,0 +1,21 @@
+{
+  "name": "my-mevn-new",
+  "version": "1.0.0",
+  "description": "Full Stack MEVN",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Mohammad Afandy",
+  "license": "ISC"
+}
