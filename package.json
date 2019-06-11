@@ -13,7 +13,7 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "postinstall": "npm run build --prefix ./client",
+    "postinstall": "cd client && npm run build",
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
